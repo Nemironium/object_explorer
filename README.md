@@ -3,5 +3,8 @@ These code shows how to use Win API functions to get information about processes
 
 Program was developed to MinGW gcc 7.3 version on Windows 10 1803
 
-### compiling:
+### Warning 
+  main.cpp just demonstrates work of libraries File.hpp ProcessInfo.hpp
+
+#### compiling:
   g++ main.cpp File.cpp Processinfo.cpp -o test.exe -DPSAPI_VERSION=2 -std=gnu++1z
